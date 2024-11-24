@@ -1,5 +1,11 @@
 # Tugas Pemweb 4
 
+## Bio
+
+Name : Cornelius Linux
+<br>
+NIM : 122140078
+
 ## Description
 
 This project is a web application developed as part of a "Tugas Pemweb 4" assignment. It includes features such as form submission, database interaction, and result display.
