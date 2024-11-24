@@ -1,0 +1,338 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    // input 
+    // cin >> nama_variabel;
+
+    // output
+    // cout << nama_variabel;
+
+    // variabel
+    /*
+        1. Tidak boleh diawali dengan angka
+        2. Tidak boleh mengandung spasi
+        3. Tidak boleh mengandung karakter khusus seperti @, #, $, %, dll
+        4. Tidak boleh menggunakan kata kunci yang sudah ada di C++
+    */
+
+    // Gaya penulisan variabel
+    /*
+        1. Camel Case (huruf pertama kecil, huruf pertama setiap kata selanjutnya besar)
+        contoh: namaVariabel, namaVariabelKedua, dll
+        2. Snake Case (huruf kecil semua, dipisahkan dengan underscore)
+        contoh: nama_variabel, nama_variabel_kedua, dll
+        3. Pascal Case (huruf pertama setiap kata besar)
+        contoh: NamaVariabel, NamaVariabelKedua, dll
+    */
+
+    // Deklarasi variabel
+    // tipeData namaVariabel = nilai;
+
+    // Tipe data integer
+    // int bilanganBulat = 10;
+
+    // // Tipe data float
+    // float bilanganDesimal = 10.5;
+
+    // // Tipe data double
+    // double bilanganDesimalLebihLengkap = 10.5;
+
+    // // Tipe data char
+    // char karakter = 'A';
+
+    // // Tipe data string
+    // string kalimat = "Ini adalah string";
+
+    // // Tipe data boolean
+    // bool benar = true;
+    // bool salah = false;
+
+    // bool benar2 = 1;
+    // bool salah2 = 0;
+
+    // string nama;
+
+    // cout << "Masukkan nama: ";
+    // cin >> nama;
+    // getline(cin, nama);
+
+    // cout << "Nama kamu adalah " << nama << endl;
+
+
+    // 120140044
+
+    // int bil1 = 10;
+    // float bil2 = 10.5;
+
+    // // int hasil = bil1 + bil2;
+    // float hasil = bil1 + bil2;
+    // cout << hasil << endl;
+
+    // cout << bil1 + bil2 << endl;
+
+    /*
+        Buatlah program yang menginputkan 
+        2 bilangan lalu jumlahkan kedua 
+        bilangan tersebut,
+        dan tampilkan hasilnya.
+    */
+
+
+    // Percabangan
+
+    /*
+        1. if
+        a. 1 kondisi
+        if(kondisi){
+            // kode yang akan dijalankan jika kondisi bernilai true
+        }
+
+        b. 1 kondisi dan 1 kondisi lainnya
+        if(kondisi){
+            // kode yang akan dijalankan jika kondisi bernilai true
+        } else {
+            // kode yang akan dijalankan jika kondisi bernilai false
+        }
+
+        c. 2 kondisi
+        if(kondisi1){
+            // kode yang akan dijalankan jika kondisi1 bernilai true
+        } else if(kondisi2){
+            // kode yang akan dijalankan jika kondisi2 bernilai true
+        }
+
+        d. 2 kondisi dan 1 kondisi lainnya
+
+
+
+        2. switch
+    */
+
+    // int a = 9;
+
+//    if(a == 10){
+//        cout << "a sama dengan 10" << endl;
+//    }
+
+    // if(a == 10){
+    //     cout << "a sama dengan 10" << endl;
+    // } else {
+    //     cout << "a tidak sama dengan 10" << endl;
+    // }
+
+
+    // if(a == 10){
+    //     cout << "a sama dengan 10" << endl;
+    // } else if(a < 20){
+    //     cout << "a sama dengan 9" << endl;
+    // } else if(a == 8){
+    //     cout << "a sama dengan 8" << endl;
+    // } 
+    
+    // if(a == 10){
+    //     cout << "a sama dengan 10" << endl;
+    // } else if(a < 20){
+    //     cout << "a sama dengan 9" << endl;
+    // } else {
+    //     cout << "a sama dengan 8" << endl;
+    // }
+
+    // if(){}
+
+    // if(){
+
+    // } else if(){
+
+    // }
+
+    // if(){
+
+    // } else if(){
+
+    // } else {
+
+    // }
+
+    // if(a == 10){
+
+    // } else if(a == 9){
+
+    // } else{
+
+    // }
+
+    // switch(a){
+    //     case 10:
+    //         cout << "a sama dengan 10" << endl;
+    //         break;
+    //     case 9:
+    //         cout << "a sama dengan 9" << endl;
+    //         break;
+    //     case 8:
+    //         cout << "a sama dengan 8" << endl;
+    //         break;
+    //     default:
+    //         cout << "a tidak sama dengan 10, 9, dan 8" << endl;
+    //         break;
+    // }
+
+    // char menu = '1';
+    // int menu = 1;
+
+    // switch(menu){
+    //     case 1:
+    //         cout << "Menu a" << endl;
+    //         break;
+    //     case 'b':
+    //         cout << "Menu b" << endl;
+    //         break;
+    //     case 'c':
+    //         cout << "Menu c" << endl;
+    //         break;
+    //     default:
+    //         cout << "Menu tidak ditemukan" << endl;
+    //         break;
+    // }
+
+    // Perulangan
+
+    /*
+        1. for
+        for(inisialisasi; kondisi; perubahan){
+            // kode yang akan dijalankan
+        }
+
+        2. while
+        while(kondisi){
+            // kode yang akan dijalankan
+        }
+
+        3. do while
+        do{
+            // kode yang akan dijalankan
+        } while(kondisi);
+    */
+
+//    i = i + 1
+//    i += 1
+    // angka genap 0 - 10
+    // 0, 2, 4, 6, 8, 10
+    // for(int i = 0; i <= 10; i+=2){
+    //     cout << i << endl;
+    // }
+
+    // // angka ganjil 0 - 10
+    // // 1, 3, 5, 7, 9
+    // for(int i = 1; i <= 10; i+=2){
+    //     cout << i << endl;
+    // }
+
+    // // bilangan genap
+    // for(int i = 0; i <= 10; i++){
+    //     if(i % 2 != 0){
+    //         cout << i << endl;
+    //     }
+    // }
+    /*
+    Operator aritmatika : +, -, *, /, %
+    Operator perbandingan : ==, !=, <, >, <=, >=
+    Operator logika : &&, ||, !
+    */
+
+    // operator logika
+    // and : && => true jika kedua kondisi bernilai true
+    // contoh : 
+        // true && true && true => true
+        // true && false => false
+        // false && true => false
+        // false && false => false
+
+    // or : || => true jika salah satu kondisi bernilai true
+    // contoh : 
+        // true || true => true
+        // true || false => true
+        // false || true => true
+        // false || false => false
+
+    // not : ! => true jika kondisi bernilai false
+    // contoh : 
+        // !true => false
+        // !false => true
+
+    /*
+        *
+        **
+        ***
+        ****
+        *****
+
+        ####*
+        ###**
+        ##***
+        #****
+        *****
+    */
+
+    // int a = 10;
+
+    // cek kondisi dulu baru eksekusi
+    // belum tentu kode didalamnya di eksekusi
+    // while(a != 10){ 
+    //     cout << a;
+    //     a++;
+    // }
+
+    // eksekusi dulu baru cek kondisi
+    // kode didalamnya minimal dieksekusi 1 kali
+    // do{
+    //     cout << a;
+    //     a++
+    // }while(a != 10)
+
+    /*
+        *
+        **
+        ***
+        ****
+        *****
+
+        baris = 5, perulangan pwertama 1-5
+    */
+
+    // for(int i = 1; i <= 5; i++){
+    //     // 1 - baris yang sedang diisi bintang
+    //     for(int j = 1; j <= i; j++){
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
+
+
+    /*
+        ####### *
+        ##### * *
+        ### * * *
+        # * * * *
+        * * * * *
+    
+    */
+
+    // for(int i = 1; i <= 5; i++){
+    //     for(int j = 1; j <= 5 - i; j++){
+    //         cout << "  ";
+    //     }
+
+    //     for(int k = 1; k <= i; k++){
+    //         cout << " *";
+    //     }
+    //     cout << endl;
+    // }
+
+
+
+
+
+
+    return 0;
+}
